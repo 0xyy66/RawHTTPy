@@ -2,6 +2,12 @@
 
 RawHTTPy is a Python package to parse raw HTTP requests into an object, ready to be used to send HTTP requests with web python libraries such as requests or httpx.
 
+Install with
+
+```
+pip install rawhttpy
+```
+
 This library is very useful when you have to replicate an HTTP request inside your python code but it takes too long to write down all the headers and body parameters (plus all the lines of code it takes).
 
 With RawHTTPy you can pass the raw request as a string to the RawHTTPy class. You will get back an object with the following properties:

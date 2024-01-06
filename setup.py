@@ -9,5 +9,6 @@ setup(
     packages=find_packages(),
     entry_points = {'console_scripts': ['rawhttpy = rawhttpy.rawhttpy_cli:main']},
     long_description=description,
-    long_description_content_type="text/markdown"
+    long_description_content_type="text/markdown",
+    url='https://github.com/0xyy66/RawHTTPy'
 )
